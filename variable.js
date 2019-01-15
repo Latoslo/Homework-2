@@ -99,6 +99,7 @@ console.log('this function declaration is hoisted');
 // Variable declarations (with 'let' & const) and function expressions are not hoisted
 
 /*
+
 hoistedFunction2();  // Output: variable.js:101 Uncaught ReferenceErrorhoistedFunction2 is not a function. 
 //console.log(unhoistedVariable); //Output:  variable.js:102 Uncaught ReferenceError:unhoistedVariable is not defined.  
 let unhoistedVariable = 100;
